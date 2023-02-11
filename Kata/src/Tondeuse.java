@@ -12,33 +12,7 @@ public class Tondeuse {
     public void insertChar(char c){
         this.instructions = this.instructions + c;
     }
-    public void setX(int x){
-        this.x = x;
     
-    }
-
-    public void setY(int y){
-        this.y = y;
-    }
-    public void setInstructions(String instructions){
-        this.instructions = instructions;
-    }
-    public void setOrientation(char orientation){
-        this.orientation = orientation;
-    }
-
-    public int getX(){
-        return this.x;
-    }
-    public int getY(){
-        return this.y;
-    }
-    public char getOrientation(){
-        return this.orientation;
-    }
-    public String getInstructions(){
-        return this.instructions;
-    }
 
     public String ExecuteInstructions(int x_max, int y_max){
         // y_prev and x_prev is to check if we never go under 0 
