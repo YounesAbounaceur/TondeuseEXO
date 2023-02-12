@@ -55,7 +55,7 @@ public class App {
                             tondeuses.get(index).insertChar(msg.charAt(i));
                         }
                     }
-                    //Display the final result   
+                    //Execute Instructions and Display the final result   
                     System.out.println(getFinalResult(tondeuses, x_max, y_max));            
                 }
             
